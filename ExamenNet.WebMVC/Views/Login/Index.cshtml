@@ -1,0 +1,25 @@
+﻿@model ExamenNet.WebMVC.Models.Login
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/_Layout.cshtml";
+}
+@using (Html.BeginForm("", "Login", FormMethod.Post, new { id = "LoginUserFormId" }))
+{
+    <div>
+        <div>
+            <div>Usuario</div>
+            <div>@Html.TextBoxFor(model => model.Email)</div>
+
+        </div>
+        <div>
+            <div>Password</div>
+            <div>@Html.TextBoxFor(model => model.Password)</div>
+        </div>
+        <div>
+            <div>
+                <input type="submit" value="Login" />
+            </div>
+            <div>@ViewBag.Error</div>
+        </div>
+    </div>
+}

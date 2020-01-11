@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ExamenNet.WebMVC.Models.Products>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/_Layout.cshtml";
+}
+
+<div>Productos</div>
+<div id="idProductos">
+    <table id="tblProductos">
+        <tr>
+            <td>Name</td>
+            <td>SKU</td>
+            <td>Descripcion</td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelitem => item.name)</td>
+                <td>@Html.DisplayFor(modelitem => item.sku)</td>
+                <td>@Html.DisplayFor(modelitem => item.description)</td>
+            </tr>
+        }
+    </table>
+</div>
+
