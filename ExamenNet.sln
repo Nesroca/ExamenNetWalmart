@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenNet.Repositories", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenNet.DataAccess", "ExamenNet.DataAccess\ExamenNet.DataAccess.csproj", "{08EA16F3-1647-4A05-A398-762C2D0A5936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenNet.Business", "ExamenNet.Business\ExamenNet.Business.csproj", "{EC21470E-6D49-4116-8A91-17BFD7A7FAA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{08EA16F3-1647-4A05-A398-762C2D0A5936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08EA16F3-1647-4A05-A398-762C2D0A5936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08EA16F3-1647-4A05-A398-762C2D0A5936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC21470E-6D49-4116-8A91-17BFD7A7FAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC21470E-6D49-4116-8A91-17BFD7A7FAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC21470E-6D49-4116-8A91-17BFD7A7FAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC21470E-6D49-4116-8A91-17BFD7A7FAA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
