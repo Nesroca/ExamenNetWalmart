@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamenNet.WebApi", "ExamenN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenNet.DTO", "ExamenNet.DTO\ExamenNet.DTO.csproj", "{668FF59A-A186-4BB6-866F-0052E36E8C5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamenNet.Repositories", "ExamenNet.Repositories\ExamenNet.Repositories.csproj", "{8BA6442F-E150-4709-AA8D-FB6D0785D5FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{668FF59A-A186-4BB6-866F-0052E36E8C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{668FF59A-A186-4BB6-866F-0052E36E8C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{668FF59A-A186-4BB6-866F-0052E36E8C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA6442F-E150-4709-AA8D-FB6D0785D5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA6442F-E150-4709-AA8D-FB6D0785D5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA6442F-E150-4709-AA8D-FB6D0785D5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA6442F-E150-4709-AA8D-FB6D0785D5FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
